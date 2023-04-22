@@ -1,0 +1,9 @@
+{
+    "mapping": {
+        "temperature/vcc": "ruff-mbd-v1/vdd-7",
+        "temperature/gnd": "ruff-mbd-v1/gnd-10",
+        "light/vcc": "ruff-mbd-v1/vdd-5",
+        "light/gnd": "ruff-mbd-v1/gnd-6",
+        "light/i2c": "ruff-mbd-v1/i2c-0"
+    }
+}

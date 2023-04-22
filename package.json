@@ -1,0 +1,19 @@
+{
+    "name": "hello-ruff",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {
+            "dht11": "^0.3.6",
+            "gy-30": "^3.0.6"
+        },
+        "version": 1
+    },
+    "scripts": {
+        "device": "rap device add",
+        "run": "rap deploy -s",
+        "layout": "rap layout --visual"
+    }
+}
